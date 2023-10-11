@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "say-hello-app",
+    "slug": "say-hello-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "packagerOpts": {
+      "sourceExts": ["js", "json", "ts", "tsx", "jsx"]
+    },
+    "dependencies": {
+      "expo-speech": "^10.0.0"
+    }
+  }
+}

@@ -1,2 +1,2 @@
-# Capstone
-음성인식을 이용한 고령자 친화형 전화정보시스템 : 전화해줘
+# say-hello
+say hello native app
